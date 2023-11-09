@@ -1,0 +1,73 @@
+
+/* pagination */
+.pagination .page-link {
+    color: var(--primary-color);
+}
+.pagination .page-link:focus {
+    box-shadow: unset;
+}
+.pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+
+}
+
+.featured__filter .nice-select:focus {
+    border: 1px solix #e8e8e8;
+}
+.featured__filter {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.featured__filter span {
+    margin-right: 10px;
+}
+.sidebar__item__size a {
+    color: #666;
+}
+.fontend-sidebar__wrapper {
+    max-height: 468px;
+    overflow-y: hidden;
+    transition: all ease 0.2s;
+}
+.fontend-sidebar__wrapper:hover {
+    overflow-y: auto;
+}
+
+.fontend-sidebar__wrapper li a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+}
+.fontend-sidebar__wrapper li a:hover {
+    background-color: #f5f5f5;
+}
+
+.footer__copyright .contact-me {
+    color: var(--primary-color);
+
+}
+.footer__copyright .contact-me:hover {
+    opacity: 0.7;
+}
+.footer__widget a {
+    display: block;
+    transition: color ease 0.2s;
+}
+.footer__widget a:hover {
+    color: var(--primary-color);
+}
+
+.banner__pic img {
+    border: 1px solid #dfdfdf;
+}
+
+.cart-update-btn:hover {
+    cursor: pointer;
+}
+
+.btn-addtocart:hover {
+    cursor: pointer;
+}

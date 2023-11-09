@@ -1,0 +1,17 @@
+
+.login-page, .register-page {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box, .register-box {
+    width: 400px;
+    min-height: 495.6px;
+}
+.login-card-body p> a:hover {
+    color: blue;
+}
+.register-card-body a:last-child:hover {
+    color: blue;
+}
